@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About{% endblock title %}
+
+{% block body %}
+
+This is my body in About
+
+<form method="POST" action="/about">
+    {% csrf_token %}
+<div class="name">
+    <label for="">Enter Your Name: </label>
+    <input type="text" name="name" placeholder="Name">
+    <input type="submit" class="submit">
+    
+</div>
+</form>
+
+
+{% endblock body %}

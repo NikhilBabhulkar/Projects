@@ -1,0 +1,16 @@
+django-admin startproject name
+python3 manage.py runserver
+
+how to use html css and js in django
+
+MVT architecter - Model view and Templets
+
+python3 manage.py startapp home
+
+STATICFILES_DIRS =[
+    os.path.join(BASE_DIR,"static")
+]
+
+in Templets
+'DIRS': [os.path.join(BASE_DIR,"templet")],
+models are use to make connection with mysql or database
