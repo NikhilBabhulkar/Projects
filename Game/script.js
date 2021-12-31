@@ -21,18 +21,18 @@ selectBtnX.onclick = ()=>{
     
     selectBox.classList.add("hide"); //hide select box
     playBoard.classList.add("show"); //show the playboard section
-    show=document.querySelector("show")
+    //show=document.querySelector("show")
     // show.innerHTML=input;
 }
 
 selectBtnO.onclick = ()=>{ 
-    let input =prompt("Enter Your name :");
+    // let input =prompt("Enter Your name :");
     
     selectBox.classList.add("hide"); //hide select box
     playBoard.classList.add("show"); //show the playboard section
-    show=document.querySelector("show")
-    show.innerHTML=input;
-    show.innerHTML=input;
+    // show=document.querySelector("show")
+    // show.innerHTML=input;
+    // show.innerHTML=input;
     players.setAttribute("class", "players active player"); //set class attribute in players with players active player values
 }
 
