@@ -18,12 +18,11 @@ window.onload = ()=>{ //once window loaded
 }
 
 selectBtnX.onclick = ()=>{
-    let input =prompt("Enter Your name :");
     
     selectBox.classList.add("hide"); //hide select box
     playBoard.classList.add("show"); //show the playboard section
     show=document.querySelector("show")
-    show.innerHTML=input;
+    // show.innerHTML=input;
 }
 
 selectBtnO.onclick = ()=>{ 
