@@ -130,11 +130,11 @@ replayBtn.onclick = ()=>{
 
 
 
-selectBtnX.onclick = ()=>{
-    let input =prompt("Enter Your name :");
-    selectBtnX.innerHTML=input;
+// selectBtnX.onclick = ()=>{
+//     let input =prompt("Enter Your name :");
+//     selectBtnX.innerHTML=input;
 
-}
+// }
 
 
-var name = window. prompt("Enter your name: "); alert("Your name is " + name);
+// var name = window. prompt("Enter your name: "); alert("Your name is " + name);
